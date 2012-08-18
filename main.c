@@ -399,7 +399,7 @@ void play(char w) {
 		displayBoard();	
 		//dont check if too few moves
 		if(i>1) {		
-			if(check() && w!='w') return;
+			if(check()) return;
 		}
 		
 	} // end for
